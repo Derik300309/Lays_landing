@@ -202,9 +202,7 @@ header ul li a
         background-repeat: no-repeat;
         filter: invert(1);
         position: fixed;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
+        right: 40px;
     }
     .content
     {
