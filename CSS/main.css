@@ -88,12 +88,22 @@ header ul li a
     margin-top: 20px;
     text-decoration: none;
     padding: 8px 20px;
-    background: #fff;
     color: #111;
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 40px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
+    transition: all 0.5s ease;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#fff 0%, #fff 100%);
+    background-size: 0% 100%;
+    -webkit-background-size: 0% 100%;
+}
+.content .textBox a:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7) ;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
 }
 .content .imgBox
 {
@@ -229,6 +239,8 @@ header ul li a
     {
         font-size: 15px;
         padding: 8px 15px;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
     }
     .content .imgBox
     {
